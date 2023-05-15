@@ -9,7 +9,7 @@ export interface ExperienceCardProps {
   jobTitle: string;
   company: string;
   techStack: TechStackProps[];
-  date: Date;
+  date: Date | null;
   description: string[];
 }
 

@@ -35,7 +35,7 @@ function ExperienceCard({
             />
           ))}
         </div>
-        <p className="uppercase py-5 text-gray-300">{date}</p>
+        <p className="uppercase py-5 text-gray-300">{date?.toString()}</p>
         <ul className="list-disc space-x-4 ml-5 text-lg">
           {description.map((e) => (
             <li key={e}>{e}</li>
